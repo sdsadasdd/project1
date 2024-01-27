@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@100;300&family=Teko:wght@300&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body,
+html {
+    font-family: 'Ubuntu';
+    background: rgb(113, 78, 145);
+    background: linear-gradient(153deg, rgba(113, 78, 145, 1) 38%, rgba(159, 221, 107, 1) 100%);
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+.strilka {
+    width: 55px;
+    height: 62px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px 0 50px;
+
+}
+
+.menu-open {
+    width: 55px;
+    height: 35px;
+}
+
+.text-and-strilka {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-and-strilka h1 {
+    font-size: 150px;
+    padding: 0 50px;
+    color: #ffffff;
+    margin: 0;
+
+}
+
+.text-and-strilka h1.active {
+    opacity: 1;
+}
+
+.text-second-level {
+    color: #ffffff;
+    padding: 20px 0px 50px 0px;
+    font-size: 55px;
+    text-align: center;
+}
+
+.first-level-information {
+    background: url(../img/stadium.jpg) no-repeat;
+    background-size: 100%;
+    background-position-y: -200px;
+    border-radius: 0px 0px 55px 55px;
+}
+
+.text-theme-information {
+    margin-top: 100px;
+}
+
+.button-container {
+    margin-top: 87px;
+    display: flex;
+    justify-content: center;
+}
+
+.test-button {
+    width: 419px;
+    height: 96px;
+    cursor: pointer;
+    border-radius: 47px;
+    border: 2px solid black;
+    background: rgb(238, 190, 174);
+    background: linear-gradient(356deg, rgba(238, 190, 174, 0) 0%, rgba(148, 187, 233, 0) 100%);
+    color: white;
+    font-size: 30px;
+}
+
+.test-button:hover {
+    background-color: rgba(0, 0, 0, 0.10);
+    transition: 0.5s ease;
+}
